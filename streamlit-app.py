@@ -82,7 +82,7 @@ else:
         use_container_width=True
     )
 
-# --- Add explanation in an expandable/collapsible box ---
+#Add explanation in an expandable/collapsible box
 with st.expander("Explanation of Prediction"):
     st.markdown(
         """
