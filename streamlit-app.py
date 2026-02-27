@@ -62,9 +62,9 @@ st.markdown(f"The survival probability: **{proba[0][1]*100:.2f}%**")
 
 # Preparing the message to be displayed based on the prediction
 if y_pred[0] == 0:
-    msg = 'This passenger is predicted to be: **died**'
+    msg = 'This passenger is predicted to be: **Sleeping with the fishes**'
 else:
-    msg = 'This passenger is predicted to be: **survived**'
+    msg = 'This passenger is predicted to be: **Survived (Congratulations)**'
 
 ### Now add the prediction result to the Streamlit app
 
