@@ -72,10 +72,9 @@ prediction_state.markdown(msg)
 if y_pred[0] == 1:
     st.image(
         "Survived.jpg",
-        use_container_width=True)
-    st.markdown(
-        "<span style='color: green; font-size: 0.8rem;'>Survived!</span>",
-        unsafe_allow_html=True)
+        caption="Survived!",
+        use_container_width=True
+    )
 else:
     st.image(
         "Died.jpg",
